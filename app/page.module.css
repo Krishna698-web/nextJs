@@ -230,8 +230,14 @@
 
 .navbar {
   display: flex;
+  justify-content: center;
 }
 .navbar li {
   list-style: none;
+  font-weight: bold;
   margin: 0 1rem;
+}
+
+.navbar li a {
+  text-decoration: none;
 }
