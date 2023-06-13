@@ -9,7 +9,7 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <h1>Hello there this is my first nextJs blog site</h1>
-        <a href="#">Cod ing Monks</a>
+        <a href="#">Coding Monks</a>
         <Image src={Monk} height={300} alt="Logo of the site" />
       </main>
     </div>
