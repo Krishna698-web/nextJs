@@ -21,7 +21,7 @@ const Blog = () => {
       {blogs.map((blog) => (
         <div key={blog.title}>
           <h2>{blog.title}</h2>
-          <p>{blog.content}</p>
+          <p>{blog.content.substr(0, 100)}...</p>
         </div>
       ))}
     </div>
